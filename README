@@ -1,0 +1,13 @@
+MOD to mp4 without loosing timestamps
+-------------------------------------
+
+If you have a camcorder like the JVC GZ-MS90 movies are recorded as .MOD files. If you
+want to make something out of them you will need to convert them to .mp4 or another format
+by using MPEG Streamclip.
+
+The problem is that by doing so you are loosing creation and modification dates.
+
+The script will get the creation and modification dates from the .MOD files and apply them
+to the .mp4 files in the same folder. It assumes that you have installed the developer
+tools as the GetFileInfo and SetFile are called to get and set creation/modification dates
+on files. A Growl notification will appear for each successfully updated file.
