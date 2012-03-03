@@ -1,5 +1,5 @@
 (*
-Updates Dates from MOD to mp4 Script
+Updates Dates from MOD to mp4 Script by Nicolas Meier
 April 11, 2010
 
 Replace function by Bruce Phillips via MacScripter
