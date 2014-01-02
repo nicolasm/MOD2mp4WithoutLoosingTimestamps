@@ -11,3 +11,5 @@ The script will get the creation and modification dates from the .MOD files and 
 to the .mp4 files in the same folder. It assumes that you have installed the developer
 tools as the GetFileInfo and SetFile are called to get and set creation/modification dates
 on files. A Growl notification will appear for each successfully updated file.
+
+-
